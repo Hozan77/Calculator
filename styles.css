@@ -21,6 +21,7 @@ body{
     text-align: left;
     border: none;    
     background-color: hsl(0, 0%, 20%);
+    color: white;
 }
 #keys{
     display: grid;
@@ -39,14 +40,18 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
-
-
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{ 
+    background-color: hsl(0, 0%, 50%);
+}
 .operator-btn{
     background-color: hsl(35, 100%, 55%);
 }
-button:hover{
-    background-color: hsl(35, 100%, 75%);
-}
-button:active{
+.operator-btn:hover{
     background-color: hsl(35, 100%, 65%);
+}
+.operator-btn:active{
+    background-color: hsl(35, 100%, 75%);
 }
